@@ -1,6 +1,7 @@
 resource "random_string" "myrandom" {
-  length = 8
-  upper = false
+  length = 10
+  upper = true
   lower = true
   numeric = false
+  special = true
 }
