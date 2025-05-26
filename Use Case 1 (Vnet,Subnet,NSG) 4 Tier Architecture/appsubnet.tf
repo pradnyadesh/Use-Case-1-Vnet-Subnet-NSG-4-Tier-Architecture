@@ -6,3 +6,4 @@ resource "azurerm_subnet" "subnet" {
   depends_on = [azurerm_virtual_network.vnet]
   
 }
+
